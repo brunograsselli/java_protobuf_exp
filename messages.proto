@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package myprotopackage;
+option java_package = "com.bruno.proto";
+
+message Person {
+  string name = 1;
+}
